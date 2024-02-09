@@ -1,0 +1,36 @@
+"""
+This module contains tests for the text_indentation function.
+"""
+
+def test_text_indentation():
+    """
+    Test the text_indentation function.
+    """
+    # Test case 1: Single line with no indentation
+    text = "This is a single line."
+    expected_output = "This is a single line."
+    assert text_indentation(text) == expected_output
+
+    # Test case 2: Multiple lines with indentation
+    text = "This is the first line.\n\n    This is the second line.\n\n        This is the third line."
+    expected_output = "This is the first line.\n\nThis is the second line.\n\nThis is the third line."
+    assert text_indentation(text) == expected_output
+
+    # Test case 3: Empty string
+    text = ""
+    expected_output = ""
+    assert text_indentation(text) == expected_output
+
+    # Test case 4: Single line with indentation
+    text = "    This is an indented line."
+    expected_output = "This is an indented line."
+    assert text_indentation(text) == expected_output
+
+    # Test case 5: Multiple lines with mixed indentation
+    text = "This is the first line.\n\n    This is the second line.\n\n        This is the third line.\n\n    This is the fourth line."
+    expected_output = "This is the first line.\n\nThis is the second line.\n\nThis is the third line.\n\nThis is the fourth line."
+    assert text_indentation(text) == expected_output
+
+    print("All test cases pass.")
+
+test_text_indentation()
