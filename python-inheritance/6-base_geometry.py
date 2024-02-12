@@ -1,10 +1,12 @@
 #!/usr/bin/python3
+"""
+This is an empty class representing the base geometry.
+"""
+
+
 class BaseGeometry:
-    """
-    BaseGeometry class represents a base geometry shape.
-    """
+    """BaseGeometry class represents a base geometry shape."""
 
     def area(self):
-        """Calculates the area of the geometry shape."""
-
-        raise Exception
+        """Raises an Exception with the message "area() is not implemented"."""
+        raise Exception("area() is not implemented")
