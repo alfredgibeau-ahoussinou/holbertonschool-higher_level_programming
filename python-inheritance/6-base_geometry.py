@@ -5,8 +5,6 @@ class BaseGeometry:
     """
 
     def area(self):
-        """
-        Calculates the area of the geometry shape.
-        Raises an Exception with the message "area() is not implemented".
-        """
-        raise Exception("area() is not implemented")
+        """Calculates the area of the geometry shape."""
+
+        raise Exception
