@@ -1,9 +1,10 @@
 #!/usr/bin/python3
+"""
+This is an empty class representing the base geometry.
+"""
 
 
 class BaseGeometry:
-    """
-    This is an empty class representing the base geometry.
-    It serves as a placeholder for future implementations.
-    """
+    """It serves as a placeholder for future implementations."""
+    
     pass
