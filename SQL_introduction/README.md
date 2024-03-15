@@ -1,5 +1,6 @@
 # SQL - Introduction
 
+![image](https://github.com/alfredgibeau-ahoussinou/holbertonschool-higher_level_programming/assets/146840606/78cc575a-00ef-421b-a434-1bddc9c57f5f)
 
 Your score will be updated as you progress.
 
