@@ -1,5 +1,5 @@
 # SQL - More queries
-
+r
 ## Description
 This project covers various SQL topics including creating users, managing privileges, constraints, retrieving data from multiple tables, subqueries, joins, and unions.
 
